@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Jost",
+        sans-serif;
+}
+
+.holder {
+    box-shadow: 10px 10px 29px 0px rgb(39, 38, 38) inset;
+    background-image: url("D:\p22\Zz\cryptonet-technologies\back-lake.avif");
+
+}
+
+.info {
+    background-color: rgba(42, 255, 241, 0.3);
+    box-shadow: 10px 10px 29px 0px rgba(90, 90, 90, 0.75) inset;
+}
+
+.imgbg img {
+    transform: scale(1);
+    transition: .4s ease-in-out;
+}
+.imgbg img:hover {
+    transform: scale(1.2);
+}
