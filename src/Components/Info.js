@@ -20,7 +20,8 @@ const Info = () => {
     }, []);
     
     return (
-        <>
+        <> 
+        <div className='flex items-center justify-center h-screen'>
             {name.map(data => ( 
                 <div className='holder h-72 w-1/3 m-5 p-5 flex justify-around rounded-lg  '>
                     <div className='imgbg '>
@@ -47,7 +48,7 @@ const Info = () => {
                 </div>
             ))
             }
-
+    </div>
         </>
 
 
